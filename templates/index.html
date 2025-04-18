@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Цены</h1>
+      <p class="fs-5 text-body-secondary">Быстро создайте эффективную таблицу цен для своих потенциальных клиентов с помощью этого примера Bootstrap. Он создан с использованием стандартных компонентов и утилит Bootstrap с небольшими изменениями.</p>
+    </div>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Бесплатно</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0 долларов<small class="text-body-secondary fw-light">/месяц</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>включено 10 пользователей</li>
+              <li>2 ГБ памяти</li>
+              <li>Поддержка по электронной почте</li>
+              <li>Доступ к справочному центру</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Зарегистрируйтесь бесплатно</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Профессиональный</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/месяц</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>включая 20 пользователей</li>
+              <li>10 ГБ памяти</li>
+              <li>Приоритетная поддержка по электронной почте</li>
+              <li>Доступ к справочному центру</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Начало работы</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Предприятие</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">29 долларов<small class="text-body-secondary fw-light">/месяц</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>включено 30 пользователей</li>
+              <li>15 ГБ памяти</li>
+              <li>Поддержка по телефону и электронной почте</li>
+              <li>Доступ к справочному центру</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Связаться с нами</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
