@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Все статьи на сайте
+Идеи
 {% endblock %}
 
 {% block body %}
 <div class="container mt-5">
-    <h1>Список всех статей</h1>
+    <h1>Идеи сообщества</h1>
 
     {% if articles|length > 0 %}
         {% for el in articles %}
